@@ -1,0 +1,55 @@
+body{
+  background-color:green;
+  height:100vh;
+  margin:0;
+}
+
+header{
+	background-color: yellow;
+	height:20%;
+  font-size:170%;
+  text-align:right;
+}
+
+h1{
+  margin:0;
+}
+
+nav ul{
+  margin:0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: black;
+  text-align: center;
+  font-size: 150%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:white;
+}
+
+aside{
+  float:right;
+  background-color: white;
+  height: 1000%;
+}
+
+#content{
+  background-color: gray;
+  display: inline-block;
+  width:50%;
+}
+
+footer{
+  background-color: green;
+}
