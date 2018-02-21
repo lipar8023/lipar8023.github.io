@@ -18,7 +18,7 @@ div{
 header{
 	background-color: yellow;
 	height:10%;
-  font-size:170%;
+  font-size:180%;
   text-align:right;
 }
 
@@ -37,9 +37,9 @@ nav ul li {
   display: inline-block;
   background-color: black;
   text-align: center;
-  font-size: 150%;
-  padding-left: 5%;
-  padding-right: 5%;
+  font-size: 140%;
+  padding-left: 4%;
+  padding-right: 4%;
   padding-top: 1%;
   padding-bottom: 1%;
   margin-left: 0.5%;
@@ -54,7 +54,7 @@ nav ul li a{
 aside{
   float:right;
   background-color: white;
-  height: 83%;
+  height: 82%;
   width:20%;
   background: #fff url("http://www.literarygenius.info/images/william-shakespeare.jpg") no-repeat;
   background-size: 80%;
@@ -64,7 +64,7 @@ aside{
 
 aside h2{
   margin:0;
-  font-size: 280%;
+  font-size: 250%;
 }
 
 aside ul li{
@@ -79,11 +79,11 @@ aside ul li{
 }
 
 #content h1{
-  font-size: 400%;
+  font-size: 300%;
 }
 
 #content p{
-  font-size: 150%;
+  font-size: 130%;
   margin:0 10% 0 0;
 }
 
@@ -94,11 +94,11 @@ aside ul li{
 #content ul li{
   list-style: none;
   text-align: center;
-  font-size: 150%;
+  font-size: 130%;
 }
 
 footer{
   margin:0 0 0 2%;
-  font-size: 120%;
+  font-size: 110%;
 
 }
