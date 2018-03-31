@@ -15,17 +15,28 @@ h1 {
   height:100vh;
 }
 
-/* .leftcolumn{
-  background-color: #19181a; */
+.leftcolumn{
+  padding: 0;
+}
 
 /* Header */
 header{
-  padding-left: 40px;
-  margin-top: 5%;
+  margin-top: 2%;
+  width:16.7%;
   position:fixed;
+  padding-left: 3%;
 }
+
+#logo{
+  width:20%;
+  text-align: center;
+}
+
 #name{
+  margin-top:20%;
   font-size: 2vw;
+  /* padding-left: 30%; */
+  width:100%;
 }
 #title{
   font-size:1vw;
@@ -35,10 +46,12 @@ header{
   list-style: none;
   position:fixed;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 nav ul{
   margin-top: 20%;
+  padding-left: 3%;
 }
 
 nav ul li a{
@@ -52,6 +65,24 @@ nav ul li a:hover{
   text-decoration: none;
 }
 
+
+
+/* footer */
+footer{
+  position:fixed;
+  bottom: 100px;
+  margin: 0 auto;
+  padding-left: 3%;
+}
+
+.social{
+  margin-right:10px;
+}
+
+.copyright{
+  margin-top:10px;
+}
+
 /* icon */
 .img{
   height:50%;
@@ -59,47 +90,59 @@ nav ul li a:hover{
 }
 
 /* icon background */
-.icon1{
-  background-color: #8db4a3;
+.bg1{
+  /* background-color: #8db4a3; */
   text-align: center;
+  background-image: url('pics/taskly.jpg');
+  padding:0;
 }
 
-.icon2{
-  background-color: #5f9c74;
-  text-align: center;
+.bgc1{
+  background-color: rgba(255, 0, 0, 0.45);
+  width:100%;
+  height:100%;
+
 }
 
-.icon3{
-  background-color: #c2d2bd;
+.bg2{
+  /* background-color: #5f9c74; */
   text-align: center;
+  background-image: url('pics/homemade.jpg');
+
 }
 
-.icon4{
+.bg3{
+  /* background-color: #c2d2bd; */
+  text-align: center;
+  background-image: url('pics/ingage.jpg');
+}
+
+.bg4{
   background-color: #f9c871;
   text-align: center;
 }
 
-.icon5{
+.bg5{
   background-color: #ecb251;
   text-align: center;
 }
 
-.icon6{
+.bg6{
   background-color: #f6d79b;
   text-align: center;
 }
 
-.icon7{
+.bg7{
   background-color: #a3cce2;
   text-align: center;
 }
 
-.icon8{
+.bg8{
   background-color: #88bfe0;
   text-align: center;
 }
 
-.icon9{
+.bg9{
   background-color: #bedced;
   text-align: center;
 }
