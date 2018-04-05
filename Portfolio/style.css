@@ -33,12 +33,14 @@ header{
 }
 
 #name{
+  font-family: 'Open Sans', sans-serif;
   margin-top:20%;
   margin-bottom: 3%;
   font-size: 2vw;
   width:100%;
 }
 #title{
+  font-family: 'Open Sans', sans-serif;
   font-size:1vw;
 }
 
@@ -68,7 +70,8 @@ nav ul{
 nav ul li a{
   color:#5e5e5e;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3vw;
   line-height: 200%;
 }
 
@@ -96,6 +99,7 @@ footer{
 }
 
 .copyright{
+  font-family: 'Open Sans', sans-serif;
   margin-top:10px;
   color:#5e5e5e;`
 }
@@ -275,7 +279,31 @@ footer{
 }
 
 /* aboutpage */
+.abouttext{
+  margin-top: 20%;
+  font-family: 'Open Sans', sans-serif;
+}
 
+.abouttitle{
+  color:#E8B659;
+  margin-top: 10%;
+  font-size: 250%;
+}
+
+.aboutbrief{
+  color:#5a5a5a;
+  font-size: 150%;
+}
+
+/* lifepage */
+.lifephoto .row{
+  height:auto;
+}
+.photo{
+  margin-top: 8%;
+  max-width: 90%;
+  height:auto;
+}
 /* @media screen and (max-width: 900px) {
     ul.sidenav {
         width: 100%;
