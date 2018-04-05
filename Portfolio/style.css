@@ -41,12 +41,23 @@ header{
 #title{
   font-size:1vw;
 }
+
+/* header link */
+.hdlink{
+  text-decoration: none;
+  color:#000;
+}
+
+.hdlink:hover{
+  text-decoration: none;
+  color:#000;
+}
+
 /* navigation */
 .sidenav{
   list-style: none;
   position:fixed;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 nav ul{
@@ -55,16 +66,20 @@ nav ul{
 }
 
 nav ul li a{
+  color:#5e5e5e;
   text-decoration: none;
-  color: #000;
   font-size: 1.5vw;
   line-height: 200%;
 }
 
 nav ul li a:hover{
   text-decoration: none;
+  color:#1084C9;
 }
 
+.current{
+  color:#1084C9;
+}
 
 
 /* footer */
@@ -77,10 +92,12 @@ footer{
 
 .social{
   margin-right:10px;
+  color:#5e5e5e;
 }
 
 .copyright{
   margin-top:10px;
+  color:#5e5e5e;`
 }
 
 /* icon */
