@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -20,6 +21,29 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <div class="container-fluid">
+      <nav class="navbar navbar-light light-blue">
+        <a class="navbar-brand" href="index.html"><img id="navlogo" src="pics/logo.png" alt="self logo"></a>
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
+            aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fa fa-bars fa-1x"></i></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Work <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://drive.google.com/file/d/1fz4rGrQRUfagy7mYE6ZJz5h12AO0119s/view?usp=sharing" target="_blank">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="life.html">Life Fun</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+
+
       <div class="row">
         <div class="container col-lg-2 leftcolumn">
             <header>
@@ -28,17 +52,19 @@
                 <p id="name">Linya Li</p>
                 <p id="title">Product Designer</p>
               </a>
-            </header>
-            <nav>
-              <ul class="sidenav">
-                <li><a class="current" href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="https://drive.google.com/file/d/1fz4rGrQRUfagy7mYE6ZJz5h12AO0119s/view?usp=sharing" target="_blank">Resume</a></li>
-                <li><a href="life.html">Life Fun</a></li>
-              </ul>
-            </nav>
+              <nav>
+                <ul class="nav">
+                  <li><a class="current" href="index.html">Work</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="https://drive.google.com/file/d/1fz4rGrQRUfagy7mYE6ZJz5h12AO0119s/view?usp=sharing" target="_blank">Resume</a></li>
+                  <li><a href="life.html">Life Fun</a></li>
+                </ul>
 
-            <footer>
+              </nav>
+            </header>
+
+
+            <footer class="footer">
               <a href="https://www.linkedin.com/in/linyali8023" target="_blank"><i class="fab fa-linkedin-in fa-2x social"></i></a>
               <a href="mailto:lipar8023@gmail.com" target="_blank"><i class="far fa-envelope fa-2x social"></i></a>
               <a href="https://github.com/lipar8023" target="_blank"><i class="fab fa-github fa-2x social"></i></a>
@@ -49,7 +75,8 @@
           <div class="container col-lg-10">
 
           <div class="row">
-            <div class="col-lg-4  bg1">
+
+            <div class="col-lg-4 col-md-6 col-xs-12 bg1">
               <div class="bgc1">
                 <p class="project_name"> <a href ="taskly.html">taskly </a></p>
                 <p class="project_type">UX/UI DESIGN</p>
@@ -57,7 +84,7 @@
               </div>
             </div>
 
-              <div class ="col-lg-4 bg2">
+              <div class ="col-lg-4 col-md-6 col-xs-12 bg2">
                 <div class="bgc2">
                   <p class="project_name"> <a href="ingage.html"> ingage </a></p>
                   <p class="project_type">UX, SERVICE DESIGN</p>
@@ -70,7 +97,7 @@
                 </div>
               </div>
 
-              <div class ="col-lg-4 bg3">
+              <div class ="col-lg-4 col-md-6 col-xs-12 bg3">
                 <div class="bgc3">
                   <p class="project_name"> <a href="#homemade genius">homemade genius</a></p>
                   <p class="project_type">RESEARCH, UX/UI DESIGN</p>
@@ -79,10 +106,8 @@
                 </div>
               </div>
 
-            </div>
 
-            <div class="row">
-              <div class="col-lg-4 bg4">
+              <div class="col-lg-4 col-md-6 col-xs-12 bg4">
                 <div class="bgc4">
                   <p class="project_name"> <a href="#smart bus stop">smart bus stop </a></p>
                   <p class="project_type">SERVICE DESIGN</p>
@@ -90,7 +115,7 @@
                 </div>
               </div>
 
-                <div class ="col-lg-4 bg5">
+                <div class ="col-lg-4 col-md-6 col-xs-12 bg5">
                   <div class="bgc5">
                     <p class="project_name"> <a href="#contextual inquiry"> contextual inquiry</a></p>
                     <p class="project_type">DESIGN RESEARCH</p>
@@ -98,17 +123,23 @@
                   </div>
                 </div>
 
-                <div class ="col-lg-4 bg6">
+                <div class ="col-lg-4 col-md-6 col-xs-12 bg6">
                   <div class="bgc6">
                     <p class="project_name"> <a href="#graphic design"> graphic design </a></p>
                     <p class="project_type">GRAPHIC, VISUAL DESIGN</p>
                     <p class="project_brief">collection of graphic design</p>
                   </div>
                 </div>
-              </div>
 
+            </div>
           </div>
         </div>
+        <footer class="page-footer">
+          <a href="https://www.linkedin.com/in/linyali8023" target="_blank"><i class="fab fa-linkedin-in fa-2x social"></i></a>
+          <a href="mailto:lipar8023@gmail.com" target="_blank"><i class="far fa-envelope fa-2x social"></i></a>
+          <a href="https://github.com/lipar8023" target="_blank"><i class="fab fa-github fa-2x social"></i></a>
+          <p class="copyright">©Linya Li 2018</p>
+        </footer>
       </div>
 
 
