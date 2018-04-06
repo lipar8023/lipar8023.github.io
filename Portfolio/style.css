@@ -350,6 +350,20 @@ a.nav-link{
 }
 }
 /* lifepage */
+.lifephoto .lifetext{
+  margin:0;
+  margin-top:2em;
+  text-align: center;
+}
+
+.lifetext .lifeparagraph{
+  text-align: center;
+  color:#F8BB47;
+  font-size: 4em;
+  font-family: 'Marck Script', cursive;
+  margin-bottom: 0;
+}
+
 .lifephoto .row{
   height:auto;
 }
