@@ -8,9 +8,11 @@
     	// Write a function that ensures at least one but ONLY one radio button is selected.  Make sure the form action is not performed if either field is blank.
 			s = document.getElementById("opt-straw").checked
 			b = document.getElementById("opt-blue").checked
-			if (s==true||b==true)
+			if (s==true||b==true){
 				return true;
+			}
 			else{
+				alert('Please select your favorite berry.');
 				return false;
 			}
 		}

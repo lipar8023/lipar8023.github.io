@@ -3,10 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Challenge 4</title>
+	<link href="https://fonts.googleapis.com/css?family=Kirang+Haerang" rel="stylesheet">
     <style>
 
     .errormsg {
         /*font: Use a cool Google font*/
+			font-family: 'Kirang Haerang', cursive;
+			font-size: 20px;
     	color:red;
     	display:none; }
     </style>
@@ -14,7 +17,32 @@
     <script type="text/javascript">
     function checkForm(){
     	// Write a function that displays the appropriate error message(s) if a field is left blank.  Make sure the form action is not performed if either field is blank.
-    }
+			x= document.getElementById('fullname').value;
+			y= document.getElementById('streetaddr').value;
+
+
+			if (x == '' && y == '' ) {
+					document.getElementById('nameerrormsg').style.display = 'block';
+					document.getElementById('addrerrormsg').style.display = 'block';
+					return false;
+			}
+
+			else if (x == '' && y != '') {
+					document.getElementById('nameerrormsg').style.display = 'block';
+					return false;
+			}
+
+
+			else if (x != '' && y == '') {
+					document.getElementById('addrerrormsg').style.display = 'block';
+					return false;
+			}
+
+			else {
+					return true;
+			}
+		}
+
     </script>
 </head>
 <body>
