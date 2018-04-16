@@ -1,10 +1,6 @@
-/* body{
-  background-image: url("images/sun-pattern.png")
-} */
+
 .pic{
   width:50%;
-  border:5px;
   border-color: blue;
   padding: 5%;
-  display: inline-block;
 }
