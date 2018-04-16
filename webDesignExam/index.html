@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web Design Exam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".hidebutton").click(function(){
+          $('#pic1').hide();
+        });
+        $(".showbutton").click(function(){
+          $('#pic1').show();
+        });
+      });
+    </script>
+  </head>
+  <body background="images/sun-pattern.png">
+    <h1>Linya Li</h1>
+    <div class="image">
+      <img class="pic" id="pic1" alt="Colleen with friends" src="images/examPic.JPG">
+      <img class="pic" id="pic2" alt="UMSI logo" src="images/UMSI-logo.jpg">
+    </div>
+    <button class="hidebutton" type="button">Hide Image</button>
+    <button class="showbutton" type="button">Show Image</button>
+  </body>
+</html>
