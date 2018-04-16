@@ -1,6 +1,7 @@
 
 .pic{
-  width:50%;
+  width:38%;
   border-color: blue;
   padding: 5%;
+  display: inline;
 }
